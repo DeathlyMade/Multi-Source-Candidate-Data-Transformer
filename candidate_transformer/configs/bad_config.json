@@ -1,0 +1,8 @@
+{
+  "_comment": "Intentionally invalid: 'emailz[0]' is not a canonical path. Used to demonstrate the pre-run config validation gate (fails fast before any work).",
+  "fields": [
+    {"path": "full_name", "type": "string", "required": true},
+    {"path": "primary_email", "from": "emailz[0]", "type": "string", "required": true}
+  ],
+  "on_missing": "null"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "contacts_min",
+  "_comment": "Demonstrates: subset of fields, rename via path+from, candidate_id compute, provenance/confidence OFF, and on_missing=omit (missing fields are dropped entirely rather than nulled).",
+  "fields": [
+    {"path": "id", "compute": "candidate_id", "type": "string"},
+    {"path": "name", "from": "full_name", "type": "string", "required": true},
+    {"path": "email", "from": "emails[0]", "type": "string", "required": true},
+    {"path": "country", "from": "location.country", "type": "string"},
+    {"path": "github", "from": "links.github", "type": "string"}
+  ],
+  "include_confidence": false,
+  "include_provenance": false,
+  "include_conflicts": false,
+  "on_missing": "omit"
+}

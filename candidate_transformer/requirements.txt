@@ -1,0 +1,7 @@
+# Runtime dependencies (engine + adapters)
+pypdf>=4.0          # resume PDF parsing
+python-docx>=1.1    # resume DOCX parsing
+chardet>=5.2        # robust byte decoding (mojibake/encoding edge case)
+
+# Dev / tooling (tests + sample PDF regeneration):
+#   pip install pytest reportlab

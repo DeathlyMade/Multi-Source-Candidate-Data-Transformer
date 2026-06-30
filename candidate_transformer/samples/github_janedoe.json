@@ -1,0 +1,18 @@
+{
+  "_note": "Saved export of the public GitHub REST API (GET /users/{login} + /users/{login}/repos). Used offline for deterministic, ToS-safe runs.",
+  "user": {
+    "login": "janedoe",
+    "name": "Jane Doe",
+    "bio": "Backend engineer. Distributed systems and data platforms.",
+    "email": "jane.doe@gmail.com",
+    "blog": "https://janedoe.dev",
+    "location": "San Francisco",
+    "html_url": "https://github.com/janedoe",
+    "public_repos": 3
+  },
+  "repos": [
+    {"name": "streamkit", "languages": {"Python": 154000, "Go": 23000}},
+    {"name": "webapp", "languages": {"JavaScript": 90000, "Python": 12000}},
+    {"name": "infra", "languages": {"Shell": 8000, "HCL": 3000}}
+  ]
+}

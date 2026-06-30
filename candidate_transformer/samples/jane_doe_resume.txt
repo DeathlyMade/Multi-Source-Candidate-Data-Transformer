@@ -1,0 +1,21 @@
+Jane Doe
+Senior Software Engineer
+Berlin, Germany
+jane.doe@gmail.com | +49 30 1234567 | linkedin.com/in/janedoe | github.com/janedoe
+
+SUMMARY
+Backend engineer with 7 years building distributed data platforms at scale.
+
+EXPERIENCE
+Staff Software Engineer, Acme Corp - Jan 2021 - Present
+Lead the candidate-data platform team. Python, Kafka, Kubernetes, PostgreSQL.
+
+Senior Software Engineer, DataWorks Inc - Jun 2017 - Dec 2020
+Built streaming pipelines in Scala and Spark.
+
+EDUCATION
+M.S., Computer Science, Stanford University - 2017
+B.S., Computer Science, UC Berkeley - 2015
+
+SKILLS
+Python, Kafka, Kubernetes, PostgreSQL, Distributed Systems, scikit-learn, Scala, Spark

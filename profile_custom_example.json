@@ -1,0 +1,26 @@
+{
+  "full_name": "Jane Doe",
+  "primary_email": "jane.doe@gmail.com",
+  "phone": "+14155550142",
+  "skills": [
+    "Python",
+    "Kafka",
+    "Kubernetes",
+    "PostgreSQL",
+    "Distributed Systems",
+    "Scala",
+    "scikit-learn",
+    "Spark",
+    "Go",
+    "JavaScript",
+    "Machine Learning",
+    "HCL",
+    "Shell"
+  ],
+  "field_confidence": {
+    "full_name": 0.994,
+    "primary_email": 0.999,
+    "phone": 0.984,
+    "skills": 0.989
+  }
+}

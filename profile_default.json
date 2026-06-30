@@ -1,0 +1,496 @@
+{
+  "candidate_id": "7ba49237-bd89-5f9c-a69c-87e732ca8007",
+  "full_name": "Jane Doe",
+  "emails": [
+    "jane.doe@gmail.com",
+    "j.doe@acme.com"
+  ],
+  "phones": [
+    "+14155550142",
+    "+49301234567"
+  ],
+  "location": {
+    "city": "San Francisco",
+    "region": null,
+    "country": null
+  },
+  "links": {
+    "linkedin": "https://linkedin.com/in/janedoe",
+    "github": "https://github.com/janedoe",
+    "portfolio": "https://janedoe.dev",
+    "other": []
+  },
+  "headline": "Staff Engineer at Acme",
+  "years_experience": 4,
+  "skills": [
+    {
+      "name": "Python",
+      "confidence": 0.989,
+      "sources": [
+        "ats_json:sha256:76a57a87afc89879",
+        "github:sha256:be1e12373d8d3c94",
+        "recruiter_notes:sha256:40d55ba06009152d",
+        "resume:sha256:dbe4bb979e1d51cd"
+      ]
+    },
+    {
+      "name": "Kafka",
+      "confidence": 0.964,
+      "sources": [
+        "ats_json:sha256:76a57a87afc89879",
+        "recruiter_notes:sha256:40d55ba06009152d",
+        "resume:sha256:dbe4bb979e1d51cd"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "confidence": 0.94,
+      "sources": [
+        "ats_json:sha256:76a57a87afc89879",
+        "resume:sha256:dbe4bb979e1d51cd"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "confidence": 0.94,
+      "sources": [
+        "ats_json:sha256:76a57a87afc89879",
+        "resume:sha256:dbe4bb979e1d51cd"
+      ]
+    },
+    {
+      "name": "Distributed Systems",
+      "confidence": 0.8,
+      "sources": [
+        "resume:sha256:dbe4bb979e1d51cd"
+      ]
+    },
+    {
+      "name": "Scala",
+      "confidence": 0.8,
+      "sources": [
+        "resume:sha256:dbe4bb979e1d51cd"
+      ]
+    },
+    {
+      "name": "scikit-learn",
+      "confidence": 0.8,
+      "sources": [
+        "resume:sha256:dbe4bb979e1d51cd"
+      ]
+    },
+    {
+      "name": "Spark",
+      "confidence": 0.8,
+      "sources": [
+        "resume:sha256:dbe4bb979e1d51cd"
+      ]
+    },
+    {
+      "name": "Go",
+      "confidence": 0.7,
+      "sources": [
+        "github:sha256:be1e12373d8d3c94"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "confidence": 0.7,
+      "sources": [
+        "github:sha256:be1e12373d8d3c94"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "confidence": 0.7,
+      "sources": [
+        "ats_json:sha256:76a57a87afc89879"
+      ]
+    },
+    {
+      "name": "HCL",
+      "confidence": 0.21,
+      "sources": [
+        "github:sha256:be1e12373d8d3c94"
+      ]
+    },
+    {
+      "name": "Shell",
+      "confidence": 0.21,
+      "sources": [
+        "github:sha256:be1e12373d8d3c94"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Acme Corp",
+      "title": "Staff Software Engineer",
+      "start": "2021-01",
+      "end": null,
+      "summary": "Lead the candidate-data platform team. Python, Kafka, Kubernetes, PostgreSQL."
+    },
+    {
+      "company": "DataWorks Inc",
+      "title": "Senior Software Engineer",
+      "start": "2017-06",
+      "end": "2020-12",
+      "summary": "Built streaming pipelines in Scala and Spark."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Stanford University",
+      "degree": "M.S.",
+      "field": "Computer Science",
+      "end_year": 2017
+    },
+    {
+      "institution": "UC Berkeley",
+      "degree": "B.S.",
+      "field": "Computer Science",
+      "end_year": 2015
+    }
+  ],
+  "overall_confidence": 0.804,
+  "field_confidence": {
+    "full_name": 0.994,
+    "emails": 0.999,
+    "phones": 0.984,
+    "headline": 0.196,
+    "years_experience": 0.6,
+    "skills": 0.989,
+    "experience": 0.994,
+    "education": 0.927
+  },
+  "provenance": [
+    {
+      "field": "full_name",
+      "source": "ats_json:sha256:76a57a87afc89879",
+      "method": "corroborated"
+    },
+    {
+      "field": "full_name",
+      "source": "github:sha256:be1e12373d8d3c94",
+      "method": "corroborated"
+    },
+    {
+      "field": "full_name",
+      "source": "recruiter_csv:sha256:5bb9d03ebdd2e8c9",
+      "method": "corroborated"
+    },
+    {
+      "field": "full_name",
+      "source": "resume:sha256:dbe4bb979e1d51cd",
+      "method": "corroborated"
+    },
+    {
+      "field": "headline",
+      "source": "ats_json:sha256:76a57a87afc89879",
+      "method": "demoted_conflict"
+    },
+    {
+      "field": "location.city",
+      "source": "ats_json:sha256:76a57a87afc89879",
+      "method": "evidence_vote"
+    },
+    {
+      "field": "location.city",
+      "source": "github:sha256:be1e12373d8d3c94",
+      "method": "evidence_vote"
+    },
+    {
+      "field": "location.city",
+      "source": "recruiter_csv:sha256:5bb9d03ebdd2e8c9",
+      "method": "evidence_vote"
+    },
+    {
+      "field": "links.linkedin",
+      "source": "ats_json:sha256:76a57a87afc89879",
+      "method": "corroborated"
+    },
+    {
+      "field": "links.linkedin",
+      "source": "resume:sha256:dbe4bb979e1d51cd",
+      "method": "corroborated"
+    },
+    {
+      "field": "links.github",
+      "source": "ats_json:sha256:76a57a87afc89879",
+      "method": "corroborated"
+    },
+    {
+      "field": "links.github",
+      "source": "github:sha256:be1e12373d8d3c94",
+      "method": "corroborated"
+    },
+    {
+      "field": "links.github",
+      "source": "resume:sha256:dbe4bb979e1d51cd",
+      "method": "corroborated"
+    },
+    {
+      "field": "links.portfolio",
+      "source": "github:sha256:be1e12373d8d3c94",
+      "method": "single_source"
+    },
+    {
+      "field": "emails",
+      "source": "ats_json:sha256:76a57a87afc89879",
+      "method": "union_dedupe"
+    },
+    {
+      "field": "emails",
+      "source": "github:sha256:be1e12373d8d3c94",
+      "method": "union_dedupe"
+    },
+    {
+      "field": "emails",
+      "source": "recruiter_csv:sha256:5bb9d03ebdd2e8c9",
+      "method": "union_dedupe"
+    },
+    {
+      "field": "emails",
+      "source": "recruiter_notes:sha256:40d55ba06009152d",
+      "method": "union_dedupe"
+    },
+    {
+      "field": "emails",
+      "source": "resume:sha256:dbe4bb979e1d51cd",
+      "method": "union_dedupe"
+    },
+    {
+      "field": "emails",
+      "source": "ats_json:sha256:76a57a87afc89879",
+      "method": "union_dedupe"
+    },
+    {
+      "field": "phones",
+      "source": "ats_json:sha256:76a57a87afc89879",
+      "method": "union_dedupe"
+    },
+    {
+      "field": "phones",
+      "source": "recruiter_csv:sha256:5bb9d03ebdd2e8c9",
+      "method": "union_dedupe"
+    },
+    {
+      "field": "phones",
+      "source": "recruiter_notes:sha256:40d55ba06009152d",
+      "method": "union_dedupe"
+    },
+    {
+      "field": "phones",
+      "source": "resume:sha256:dbe4bb979e1d51cd",
+      "method": "union_dedupe"
+    },
+    {
+      "field": "skills",
+      "source": "ats_json:sha256:76a57a87afc89879",
+      "method": "canonical_union"
+    },
+    {
+      "field": "skills",
+      "source": "github:sha256:be1e12373d8d3c94",
+      "method": "canonical_union"
+    },
+    {
+      "field": "skills",
+      "source": "recruiter_notes:sha256:40d55ba06009152d",
+      "method": "canonical_union"
+    },
+    {
+      "field": "skills",
+      "source": "resume:sha256:dbe4bb979e1d51cd",
+      "method": "canonical_union"
+    },
+    {
+      "field": "skills",
+      "source": "ats_json:sha256:76a57a87afc89879",
+      "method": "canonical_union"
+    },
+    {
+      "field": "skills",
+      "source": "recruiter_notes:sha256:40d55ba06009152d",
+      "method": "canonical_union"
+    },
+    {
+      "field": "skills",
+      "source": "resume:sha256:dbe4bb979e1d51cd",
+      "method": "canonical_union"
+    },
+    {
+      "field": "skills",
+      "source": "ats_json:sha256:76a57a87afc89879",
+      "method": "canonical_union"
+    },
+    {
+      "field": "skills",
+      "source": "resume:sha256:dbe4bb979e1d51cd",
+      "method": "canonical_union"
+    },
+    {
+      "field": "skills",
+      "source": "ats_json:sha256:76a57a87afc89879",
+      "method": "canonical_union"
+    },
+    {
+      "field": "skills",
+      "source": "resume:sha256:dbe4bb979e1d51cd",
+      "method": "canonical_union"
+    },
+    {
+      "field": "skills",
+      "source": "resume:sha256:dbe4bb979e1d51cd",
+      "method": "canonical_union"
+    },
+    {
+      "field": "skills",
+      "source": "resume:sha256:dbe4bb979e1d51cd",
+      "method": "canonical_union"
+    },
+    {
+      "field": "skills",
+      "source": "resume:sha256:dbe4bb979e1d51cd",
+      "method": "canonical_union"
+    },
+    {
+      "field": "skills",
+      "source": "resume:sha256:dbe4bb979e1d51cd",
+      "method": "canonical_union"
+    },
+    {
+      "field": "skills",
+      "source": "github:sha256:be1e12373d8d3c94",
+      "method": "canonical_union"
+    },
+    {
+      "field": "skills",
+      "source": "github:sha256:be1e12373d8d3c94",
+      "method": "canonical_union"
+    },
+    {
+      "field": "skills",
+      "source": "ats_json:sha256:76a57a87afc89879",
+      "method": "canonical_union"
+    },
+    {
+      "field": "skills",
+      "source": "github:sha256:be1e12373d8d3c94",
+      "method": "canonical_union"
+    },
+    {
+      "field": "skills",
+      "source": "github:sha256:be1e12373d8d3c94",
+      "method": "canonical_union"
+    },
+    {
+      "field": "experience",
+      "source": "ats_json:sha256:76a57a87afc89879",
+      "method": "entity_dedupe"
+    },
+    {
+      "field": "experience",
+      "source": "recruiter_csv:sha256:5bb9d03ebdd2e8c9",
+      "method": "entity_dedupe"
+    },
+    {
+      "field": "experience",
+      "source": "recruiter_notes:sha256:40d55ba06009152d",
+      "method": "entity_dedupe"
+    },
+    {
+      "field": "experience",
+      "source": "resume:sha256:dbe4bb979e1d51cd",
+      "method": "entity_dedupe"
+    },
+    {
+      "field": "experience",
+      "source": "ats_json:sha256:76a57a87afc89879",
+      "method": "entity_dedupe"
+    },
+    {
+      "field": "experience",
+      "source": "resume:sha256:dbe4bb979e1d51cd",
+      "method": "entity_dedupe"
+    },
+    {
+      "field": "education",
+      "source": "ats_json:sha256:76a57a87afc89879",
+      "method": "entity_dedupe"
+    },
+    {
+      "field": "education",
+      "source": "resume:sha256:dbe4bb979e1d51cd",
+      "method": "entity_dedupe"
+    },
+    {
+      "field": "education",
+      "source": "ats_json:sha256:76a57a87afc89879",
+      "method": "entity_dedupe"
+    },
+    {
+      "field": "education",
+      "source": "resume:sha256:dbe4bb979e1d51cd",
+      "method": "entity_dedupe"
+    },
+    {
+      "field": "years_experience",
+      "source": "derived:spans",
+      "method": "derived_from_spans"
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "headline",
+      "reason": "demoted",
+      "winner": "Staff Engineer at Acme",
+      "alternatives": [
+        {
+          "value": "Backend engineer with 7 years building distributed data platforms at scale.",
+          "score": 0.65,
+          "sources": [
+            "resume:sha256:dbe4bb979e1d51cd"
+          ]
+        },
+        {
+          "value": "Senior Software Engineer",
+          "score": 0.65,
+          "sources": [
+            "resume:sha256:dbe4bb979e1d51cd"
+          ]
+        },
+        {
+          "value": "Backend engineer. Distributed systems and data platforms.",
+          "score": 0.5,
+          "sources": [
+            "github:sha256:be1e12373d8d3c94"
+          ]
+        }
+      ],
+      "margin": 0.071
+    },
+    {
+      "field": "location.country",
+      "reason": "honesty_gate_null",
+      "winner": null,
+      "alternatives": [
+        {
+          "value": "DE",
+          "score": 0.75,
+          "sources": [
+            "resume:sha256:dbe4bb979e1d51cd"
+          ]
+        },
+        {
+          "value": "US",
+          "score": 0.75,
+          "sources": [
+            "ats_json:sha256:76a57a87afc89879"
+          ]
+        }
+      ],
+      "margin": 0.0
+    }
+  ]
+}

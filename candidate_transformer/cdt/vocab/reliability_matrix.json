@@ -1,0 +1,75 @@
+{
+  "version": "2026.06.1",
+  "description": "Field-aware source-reliability matrix w(source_type, field). Visible and tunable with NO code change. Values in [0,1]. '_default' applies when a field is not listed.",
+  "default": 0.5,
+  "by_source_type": {
+    "recruiter_csv": {
+      "_default": 0.80,
+      "full_name": 0.80,
+      "emails": 0.85,
+      "phones": 0.85,
+      "headline": 0.60,
+      "location.city": 0.70,
+      "location.region": 0.70,
+      "location.country": 0.75,
+      "experience": 0.75,
+      "years_experience": 0.55,
+      "skills": 0.55
+    },
+    "ats_json": {
+      "_default": 0.82,
+      "full_name": 0.78,
+      "emails": 0.88,
+      "phones": 0.82,
+      "headline": 0.70,
+      "location.city": 0.72,
+      "location.region": 0.72,
+      "location.country": 0.75,
+      "experience": 0.80,
+      "education": 0.80,
+      "skills": 0.70,
+      "years_experience": 0.70
+    },
+    "github": {
+      "_default": 0.60,
+      "full_name": 0.55,
+      "emails": 0.60,
+      "headline": 0.50,
+      "location.city": 0.45,
+      "location.region": 0.45,
+      "location.country": 0.45,
+      "links.github": 0.98,
+      "links.portfolio": 0.70,
+      "skills": 0.70
+    },
+    "resume": {
+      "_default": 0.72,
+      "full_name": 0.70,
+      "emails": 0.75,
+      "phones": 0.75,
+      "headline": 0.65,
+      "location.city": 0.65,
+      "location.region": 0.65,
+      "location.country": 0.75,
+      "experience": 0.82,
+      "education": 0.82,
+      "skills": 0.80,
+      "years_experience": 0.65,
+      "links.linkedin": 0.80,
+      "links.github": 0.80,
+      "links.portfolio": 0.80
+    },
+    "recruiter_notes": {
+      "_default": 0.30,
+      "full_name": 0.30,
+      "emails": 0.40,
+      "phones": 0.40,
+      "headline": 0.30,
+      "location.city": 0.30,
+      "location.region": 0.30,
+      "location.country": 0.30,
+      "skills": 0.40,
+      "experience": 0.30
+    }
+  }
+}

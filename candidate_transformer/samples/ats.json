@@ -1,0 +1,30 @@
+{
+  "applicants": [
+    {
+      "applicant_id": "A-9921",
+      "given_name": "Jane",
+      "family_name": "Doe",
+      "contact": {
+        "email_addresses": ["jane.doe@gmail.com", "j.doe@acme.com"],
+        "telephone": "+1-415-555-0142"
+      },
+      "org": "Acme Corp",
+      "position": "Staff Engineer",
+      "headline": "Staff Engineer at Acme",
+      "geo": {"city": "San Francisco", "country_name": "United States"},
+      "competencies": ["Python", "Kafka", "kubernetes", "Postgres", "ml"],
+      "work_history": [
+        {"organization": "Acme Corp", "role": "Staff Software Engineer", "from": "2021-01", "to": "present"},
+        {"organization": "DataWorks Inc", "role": "Senior Software Engineer", "from": "2017-06", "to": "2020-12"}
+      ],
+      "schools": [
+        {"school": "Stanford University", "qualification": "M.S.", "major": "Computer Science", "graduation_year": 2017},
+        {"school": "UC Berkeley", "qualification": "B.S.", "major": "Computer Science", "graduation_year": 2015}
+      ],
+      "social": {
+        "linkedin_url": "https://www.linkedin.com/in/janedoe?utm_source=ats&trk=public",
+        "git": "https://github.com/janedoe"
+      }
+    }
+  ]
+}
