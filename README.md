@@ -1,20 +1,3 @@
-# Multi-Source Candidate Data Transformer
-
-Collapse many messy, overlapping, partly-broken sources into **one canonical
-profile per candidate** — fixed schema, normalized, deduplicated, with per-field
-**provenance**, **confidence**, and **recorded dissent**.
-
-> **Core invariant: prefer-empty-over-wrong.** On an unresolved conflict we
-> demote confidence or emit `null` and keep the losing values visible. We never
-> fabricate. Wrong-but-confident silently pollutes hiring decisions; honestly-
-> empty does not.
-
-This is the Stage-2 implementation of the attached one-page design. The engine is
-a **deterministic reduce over an append-only Evidence Ledger**, with a separate
-**Projection layer** that makes configurable output a no-code feature.
-
----
-
 ## Pipeline
 
 ```
